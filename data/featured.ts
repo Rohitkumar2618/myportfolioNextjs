@@ -1,7 +1,7 @@
 
 
-import ProjectI from "../public/images/project1.gif";
-import Project2I from "../public/images/project2.gif";
+import ProjectI from "../public/images/projex3.png";
+import Project2I from "../public/images/projex2.png";
 import Project3I from "../public/images/projex2.png";
 import Project5I from "../public/images/projex4.png";
 import Project6I from "../public/images/projex5.png";
