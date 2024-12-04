@@ -11,7 +11,9 @@ interface ExpandableFeaturedProps {
 
 
 
-const ExpandableFeatured: FC<ExpandableFeaturedProps> = ({ link }) => {
+const ExpandableFeatured: FC<ExpandableFeaturedProps> = (
+  // { link }
+) => {
   const [hoveredIndex, setHoveredIndex] = useState<number | null>(null);
   console.log(object);
   const handleMouseEnter = (index: number) => {
@@ -35,7 +37,7 @@ const ExpandableFeatured: FC<ExpandableFeaturedProps> = ({ link }) => {
           <FeaturedCard
             title={featured.title}
             tag={featured.tag}
-            video={featured.video}
+         
           
             active={i === hoveredIndex}
           />
